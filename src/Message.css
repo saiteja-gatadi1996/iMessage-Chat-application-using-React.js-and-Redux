@@ -1,0 +1,45 @@
+.message{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    justify-content: space-between;
+    margin: 15px;
+
+}
+
+.message>p{
+    background-color: #f3f3f5;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin:10px;
+    font-size: medium;
+}
+
+.message>small{
+color: gray;
+position: absolute;
+bottom: -8px;
+right: 0;
+font-size: 10px;
+}
+
+.message__sender{
+    margin-left: auto;
+}
+
+
+.message__sender> .message__photo{
+/* photo will be on right */
+order: 1;
+margin: 15px;
+}
+.message__photo{
+    order: 0;
+}
+
+.message__sender>p{
+background-color: #3cabfa;
+color: white;
+}
